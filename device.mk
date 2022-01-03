@@ -136,17 +136,17 @@ PRODUCT_COPY_FILES += \
 
 # Overlays
 PRODUCT_PACKAGES += \
-    J20CCarrierConfig \
-    J20CFrameworks \
-    J20CSettings \
-    J20CSystemUI \
-    KarnaFrameworks \
-    SuryaFrameworks
+    J20CCarrierConfigOverlay \
+    J20CFrameworksOverlay \
+    J20CSettingsOverlay \
+    J20CSystemUIOverlay \
+    KarnaFrameworksOverlay \
+    SuryaFrameworksOverlay
 
 # Overlays (AOSPA)
 PRODUCT_PACKAGES += \
-    AOSPAFrameworksJ20C \
-    AOSPASystemUIJ20C
+    AOSPAFrameworksJ20COverlay \
+    AOSPASystemUIJ20COverlay
 
 # ParanoidDoze
 PRODUCT_PACKAGES += \
