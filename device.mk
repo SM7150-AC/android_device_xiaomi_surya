@@ -31,12 +31,6 @@ PRODUCT_PACKAGES += \
     android.hardware.contexthub@1.0-impl.generic \
     android.hardware.contexthub@1.0-service
 
-# Crypto
-PRODUCT_PACKAGES += \
-    android.hardware.gatekeeper@1.0.vendor \
-    android.hardware.keymaster@4.0.vendor \
-    android.hardware.keymaster@4.1.vendor
-
 # Dalvik
 $(call inherit-product, frameworks/native/build/phone-xhdpi-6144-dalvik-heap.mk)
 
@@ -74,11 +68,6 @@ BOARD_HAVE_QCOM_FM := true
 
 # GPS
 LOC_HIDL_VERSION := 4.0
-
-# Health
-PRODUCT_PACKAGES += \
-    android.hardware.health@2.1-impl-qti \
-    android.hardware.health@2.1-service
 
 # HIDL
 PRODUCT_PACKAGES += \
@@ -188,9 +177,12 @@ TARGET_COMMON_QTI_COMPONENTS := \
     audio \
     av \
     bt \
+    charging \
     display \
+    dsprpcd \
     gps \
     init \
+    keymaster \
     media \
     overlay \
     perf \
