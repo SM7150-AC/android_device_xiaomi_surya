@@ -140,6 +140,9 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
      $(LOCAL_PATH)/configs/nfc/libnfc-nci.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nci.conf
 
+# Miui Camera
+$(call inherit-product-if-exists, device/xiaomi/surya-miuicamera/config.mk)
+
 # Overlays
 PRODUCT_PACKAGES += \
     J20CCarrierConfigOverlay \
