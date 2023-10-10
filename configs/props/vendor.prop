@@ -89,7 +89,7 @@ persist.vendor.sensors.enable.mag_filter=true
 
 # SoC
 ro.soc.manufacturer=QTI
-ro.soc.model=SM7150
+ro.soc.model=SM7150-AC
 
 # ZRAM
 ro.zram.mark_idle_delay_mins=60
