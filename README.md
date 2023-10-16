@@ -31,4 +31,4 @@ The POCO X3 NFC (codenamed "surya") is a mid-range smartphone from Xiaomi's sub-
 
 ![POCO X3](https://i01.appmifile.com/webfile/globalimg/products/pc/poco-x3-nfc/specs-header.png)
 
-Copyright (C) 2021 Paranoid Android.
+Copyright (C) 2023 Paranoid Android.
