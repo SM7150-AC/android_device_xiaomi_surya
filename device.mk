@@ -66,6 +66,9 @@ PRODUCT_COPY_FILES += \
 # FM
 BOARD_HAVE_QCOM_FM := true
 
+# Firmware Surya
+$(call inherit-product, vendor/xiaomi-firmware/Android.mk)
+
 # HIDL
 PRODUCT_PACKAGES += \
     android.hidl.memory.block@1.0.vendor
@@ -113,7 +116,8 @@ PRODUCT_COPY_FILES += \
 # Namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH) \
-    hardware/xiaomi
+    hardware/xiaomi \
+    vendor/xiaomi-firmware
 
 # NeuralNetworks
 PRODUCT_PACKAGES += \
