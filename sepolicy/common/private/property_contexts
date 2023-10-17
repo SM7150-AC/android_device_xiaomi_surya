@@ -1,3 +1,6 @@
 ro.boot.hwc                    u:object_r:exported_default_prop:s0
 ro.boot.hwname                 u:object_r:exported_default_prop:s0
 ro.boot.hwversion              u:object_r:exported_default_prop:s0
+
+# Power HAL
+vendor.powerhal.                   u:object_r:vendor_power_prop:s0
