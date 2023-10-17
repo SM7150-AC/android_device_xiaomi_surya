@@ -156,10 +156,10 @@ PRODUCT_PACKAGES += \
     KarnaFrameworksOverlay \
     SuryaFrameworksOverlay
 
-# Overlays (AOSPA)
+# Overlays (ARROW)
 PRODUCT_PACKAGES += \
-    AOSPAFrameworksJ20COverlay \
-    AOSPASystemUIJ20COverlay
+    ARROWFrameworksJ20COverlay \
+    ARROWSystemUIJ20COverlay
 
 # Partitions
 PRODUCT_BUILD_SUPER_PARTITION := false
