@@ -197,6 +197,8 @@ TARGET_COMMON_QTI_COMPONENTS := \
     wfd \
     wlan
 
+$(call inherit-product, device/qcom/common/common.mk)
+
 # Sensors
 PRODUCT_PACKAGES += \
     android.hardware.sensors@2.1-service.xiaomi-multihal \

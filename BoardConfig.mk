@@ -2,6 +2,7 @@
 # SPDX-License-Identifier: Apache-2.0
 
 DEVICE_PATH := device/xiaomi/surya
+COMMON_PATH := device/qcom/common
 
 BUILD_BROKEN_DUP_RULES := true
 BUILD_BROKEN_ELF_PREBUILT_PRODUCT_COPY_FILES := true
@@ -124,6 +125,7 @@ TARGET_SCREEN_DENSITY := 440
 VENDOR_SECURITY_PATCH := $(PLATFORM_SECURITY_PATCH)
 
 # Sepolicy
+include $(COMMON_PATH)/BoardConfigQcom.mk
 include device/xiaomi/surya/sepolicy/J20C-sepolicy.mk
 TARGET_SEPOLICY_DIR := msmsteppe
 
