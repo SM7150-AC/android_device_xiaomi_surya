@@ -411,4 +411,7 @@
     <!-- Default value for performant auth feature. -->
     <bool name="config_performantAuthDefault">true</bool>
 
+    <!-- If this is true, device supports Sustained Performance Mode. -->
+    <bool name="config_sustainedPerformanceModeSupported">true</bool>
+
 </resources>
