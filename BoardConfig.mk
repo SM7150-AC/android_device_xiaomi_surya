@@ -102,7 +102,6 @@ TARGET_COPY_OUT_VENDOR := vendor
 
 # Power
 TARGET_PROVIDES_POWERHAL := true
-TARGET_POWERHAL_MODE_EXT := $(DEVICE_PATH)/power/power-mode.cpp
 
 # Properties
 TARGET_ODM_PROP += $(DEVICE_PATH)/configs/props/odm.prop
