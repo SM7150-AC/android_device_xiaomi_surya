@@ -99,3 +99,6 @@ ro.soc.model=SM7150-AC
 ro.zram.mark_idle_delay_mins=60
 ro.zram.first_wb_delay_mins=1440
 ro.zram.periodic_wb_delay_hours=24
+
+# Thermal
+vendor.sys.thermal.data.path=/data/vendor/thermal/
